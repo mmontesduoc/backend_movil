@@ -1,0 +1,61 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.8)
+
+2025-11-20T18:59:54.247-03:00  INFO 7032 --- [levelupgamer] [           main] c.e.l.LevelupgamerApplication            : Starting LevelupgamerApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 7032 (C:\Users\Marco Montes\Pictures\levelupgamer\target\levelupgamer-0.0.1-SNAPSHOT.jar started by Marco Montes in C:\Users\Marco Montes\Pictures\levelupgamer)
+2025-11-20T18:59:54.255-03:00  INFO 7032 --- [levelupgamer] [           main] c.e.l.LevelupgamerApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T18:59:55.943-03:00  INFO 7032 --- [levelupgamer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T18:59:56.228-03:00  INFO 7032 --- [levelupgamer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 4 JPA repository interfaces.
+2025-11-20T18:59:57.556-03:00  INFO 7032 --- [levelupgamer] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-20T18:59:57.583-03:00  INFO 7032 --- [levelupgamer] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T18:59:57.585-03:00  INFO 7032 --- [levelupgamer] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-20T18:59:57.652-03:00  INFO 7032 --- [levelupgamer] [           main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-20T18:59:57.656-03:00  INFO 7032 --- [levelupgamer] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3319 ms
+2025-11-20T18:59:58.071-03:00  INFO 7032 --- [levelupgamer] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T18:59:58.198-03:00  INFO 7032 --- [levelupgamer] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-11-20T18:59:58.300-03:00  INFO 7032 --- [levelupgamer] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T18:59:58.826-03:00  INFO 7032 --- [levelupgamer] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T18:59:58.887-03:00  INFO 7032 --- [levelupgamer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T18:59:58.892-03:00  WARN 7032 --- [levelupgamer] [           main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-11-20T18:59:59.513-03:00  INFO 7032 --- [levelupgamer] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6e46891d
+2025-11-20T18:59:59.518-03:00  INFO 7032 --- [levelupgamer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T18:59:59.777-03:00  WARN 7032 --- [levelupgamer] [           main] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-20T18:59:59.843-03:00  INFO 7032 --- [levelupgamer] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T19:00:01.623-03:00  INFO 7032 --- [levelupgamer] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T19:00:01.877-03:00  INFO 7032 --- [levelupgamer] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T19:00:02.829-03:00  INFO 7032 --- [levelupgamer] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T19:00:03.097-03:00  WARN 7032 --- [levelupgamer] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T19:00:04.311-03:00  WARN 7032 --- [levelupgamer] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-20T19:00:04.320-03:00  INFO 7032 --- [levelupgamer] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T19:00:04.325-03:00  INFO 7032 --- [levelupgamer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-20T19:00:04.363-03:00  INFO 7032 --- [levelupgamer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-20T19:00:04.393-03:00  INFO 7032 --- [levelupgamer] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-20T19:00:04.438-03:00 ERROR 7032 --- [levelupgamer] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
